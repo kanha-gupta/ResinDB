@@ -6,5 +6,7 @@ COPY . /app
 
 RUN go build -o resin
 
-ENTRYPOINT ["./resin"]
+CMD ["sh"]
+
+
 
