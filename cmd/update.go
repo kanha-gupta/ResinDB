@@ -19,7 +19,6 @@ var updateCmd = &cobra.Command{
 	},
 }
 
-var nameValue string
 var updateUserFields map[string]string
 var updateDatabaseName string
 var updateCollectionName string

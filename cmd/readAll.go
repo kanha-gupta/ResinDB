@@ -8,8 +8,6 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var hi string
-
 // readAllCmd represents the readAll command
 var readAllCmd = &cobra.Command{
 	Use:   "readAll",
